@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ShiftWise</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div id="app">
+    <h1>ShiftWise</h1>
+
+    <div id="status"></div>
+
+    <input id="hours" placeholder="Hours"/>
+    <input id="rate" placeholder="Rate ($)"/>
+    <button onclick="addShift()">Add Shift</button>
+
+    <button onclick="exportPDF()">Export Tax PDF</button>
+    <button onclick="upgrade()">Upgrade</button>
+
+    <div id="shifts"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
